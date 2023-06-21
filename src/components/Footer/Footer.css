@@ -1,0 +1,6 @@
+.Footer_wrapper{
+    background-color: var(--color_blue_1);
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
