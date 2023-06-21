@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
-
 :root{
   --color_blue_9:#091133;
   --color_blue_8:#111B47;
@@ -24,6 +23,8 @@
   --color_white_1:#ffffff;
 
 }
+
+
 *{
   margin: 0;
   padding: 0;
@@ -31,13 +32,29 @@
 
 }
 
-h1{
+h1,h2,h3,h4,h5,h6{
 font-size: 50px;
 font-weight: 500;
 line-height: 66px;
 letter-spacing: 1px;
 color: var(--color_blue_9);
 }
+
+h2{
+  font-size: 40px;
+  line-height: 40px;
+}
+h3{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h4{
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
 
 
 

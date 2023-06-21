@@ -1,0 +1,40 @@
+.card_wrapper{
+    width:98%;
+    margin-left: 1%;
+    height:200px;
+    padding: 10px;
+    border-bottom: 1px solid var(--color_blue_4);
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+
+.card_container{
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+   
+
+}
+
+.card_img{
+    height: 180px;
+    width: 600px;
+    margin-right: 20px;
+}
+
+.dark_text{
+    color: var(--color_blue_8);
+    font-weight: 500;
+}
+
+.card_text p{
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.card_img img{
+    height: 100%;
+    width: 100%;
+}

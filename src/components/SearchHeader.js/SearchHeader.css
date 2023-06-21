@@ -1,0 +1,29 @@
+.SearchHeader_wrapper{
+
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.input_field{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color:var(--color_blue_4);
+    width:400px;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid var(--color_blue_4);
+}
+
+.searchicon{
+    position: relative;
+    left:30px;
+}

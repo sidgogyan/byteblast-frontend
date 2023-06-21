@@ -1,0 +1,44 @@
+.CourseBottom_wrapper{
+    width: 100%;
+    display: flex;
+
+}
+
+.category{
+   margin-top: 40px;
+    width: 500px;
+    position: sticky;
+    flex:1;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-height: 500px;
+    border: 1px solid var(--color_gray_1);
+    
+    
+}
+
+.cat{
+    padding: 20px 10px;
+    color:var(--color_blue_9);
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid var(--color_gray_1);
+
+}
+
+.cat:hover{
+    background-color: var(--color_gray_1);
+}
+
+.cat input{
+    margin-right: 10px;
+}
+
+.courses{
+    
+    flex:2
+}
+
