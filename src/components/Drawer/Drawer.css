@@ -1,0 +1,53 @@
+.Drawer_open{
+    background-color: var(--color_blue_9);
+    height: 100%;
+    width: 600px!important;
+    color:var(--color_blue_1)!important;
+    font-size: 15px;
+    line-height: 20px;
+    padding:10px;
+    transition: 0.2s all ease;
+    overflow-y: scroll;
+    position: sticky;
+    z-index: 2;
+}
+
+.Drawer_open h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color_blue_2);
+    margin-bottom: 20px;
+    
+}
+
+.Drawer_open p{
+    margin-bottom: 30px;
+   
+    
+}
+
+.Drawer_close{
+    background-color: var(--color_blue_9);
+    height: 100%;
+    width: 50px;
+    padding:10px;
+    color:var(--color_gray_1)!important;
+    transition: 0.2s all ease;
+    overflow-y: scroll;
+    position: sticky;
+}
+
+.Drawer_icon_close{
+    cursor: pointer;
+
+    
+}
+
+.Drawer_icon_open{
+    cursor: pointer;
+   
+    
+    margin-left: 90%;
+    
+}
+

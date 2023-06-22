@@ -1,0 +1,59 @@
+.Table_wrapper{
+    height: 500px;
+    width: 100%;
+    
+   
+}
+
+
+
+
+#table{
+    width: 100%;
+    font-size:15px;
+    
+}
+
+
+
+
+#table td, #table th {
+    margin: 0px;
+    padding: 5px;
+   
+    
+  }
+  
+  #table tr:nth-child(even){background-color:#f7f8fa;}
+  
+
+  
+  #table th {
+    padding-top: 8px;
+    padding-bottom: 7px;
+    text-align: left;
+    background-color: var(--color_gray_1);
+    color: var(--color_blue_9);
+  }
+
+  #table td{
+    color:var(--color_blue_9);
+   
+
+  }
+
+  .success_icon{
+    color:rgb(2, 91, 2)!important;
+  }
+
+  .wrong_icon{
+    color:rgb(147, 13, 13)!important;
+  }
+
+  .attempt_icon{
+    color:rgb(255, 136, 0)!important;
+  }
+
+  .solution_icon{
+    color:rgb(5, 177, 240)!important;
+  }
